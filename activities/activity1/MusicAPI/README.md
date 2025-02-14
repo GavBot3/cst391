@@ -27,7 +27,7 @@ This activity is a web server created using `Node.js` to demonstrate how to use 
 ### MySQL Database ER Diagram
 This is how the MySQL database is structured for this activity.
 
-![erdiagram](./images/erdiagram.png)
+![erdiagram](../Activity1Screenshots/Pasted%20image%2020250203121223.png)
 
 ### API Endpoints
 
@@ -35,18 +35,18 @@ Here is a table of all the API endpoints with a postman image of the API in acti
 
 | URL                                                     | POSTMAN IMAGE                       | BROWSER IMAGE                       | REST ACTION |
 | ------------------------------------------------------- | ----------------------------------- | ----------------------------------- | ----------- |
-| http://localhost:3000/albums                            | [[Pasted image 20250203122450.png]] | [[Pasted image 20250203130139.png]] | GET         |
-| http://localhost:3000/artists                           | [[Pasted image 20250203122521.png]] | [[Pasted image 20250203130213.png]] | GET         |
-| http://localhost:3000/albums?albumId=1                  | [[Pasted image 20250203122552.png]] | [[Pasted image 20250203130244.png]] | GET         |
-| http://localhost:3000/albums/search/artist/:search      | [[Pasted image 20250203122618.png]] | [[Pasted image 20250203130313.png]] | GET         |
-| http://localhost:3000/albums/search/description/:search | [[Pasted image 20250203122659.png]] | [[Pasted image 20250203130354.png]] | GET         |
-| http://localhost:3000/albums                            | [[Pasted image 20250203122733.png]] | N/A                                 | POST        |
-| http://localhost:3000/albums                            | [[Pasted image 20250203122822.png]] | N/A                                 | PUT         |
+| http://localhost:3000/albums                            | ![](../Activity1Screenshots/Pasted%20image%2020250203122450.png) | ![Albums Browser Image](../Activity1Screenshots/Pasted%20image%2020250203130139.png)| GET         |
+| http://localhost:3000/artists                           | ![](../Activity1Screenshots/Pasted%20image%2020250203122521.png) | ![Artist Browser Image](../Activity1Screenshots/Pasted%20image%2020250203130139.png) | GET         |
+| http://localhost:3000/albums?albumId=1                  | ![](../Activity1Screenshots/Pasted%20image%2020250203122552.png) | ![](../Activity1Screenshots/Pasted%20image%2020250203130244.png) | GET         |
+| http://localhost:3000/albums/search/artist/:search      | ![](../Activity1Screenshots/Pasted%20image%2020250203122618.png) | ![](../Activity1Screenshots/Pasted%20image%2020250203130313.png) | GET         |
+| http://localhost:3000/albums/search/description/:search | ![](../Activity1Screenshots/Pasted%20image%2020250203122659.png) | ![](../Activity1Screenshots/Pasted%20image%2020250203130354.png) | GET         |
+| http://localhost:3000/albums                            | ![](../Activity1Screenshots/Pasted%20image%2020250203122733.png) | N/A                                 | POST        |
+| http://localhost:3000/albums                            | ![](../Activity1Screenshots/Pasted%20image%2020250203122822.png) | N/A                                 | PUT         |
 
 ### Application Console
 
 This is a screenshot of the application's console. It is showing the POST's request body and the `OKPacket` the application sent after receiving the request. 
-![[Pasted image 20250203123223.png]]
+![](../Activity1Screenshots/Pasted%20image%2020250203123223.png)
 
 ### Environment Variables
 
