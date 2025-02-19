@@ -34,33 +34,33 @@ Here is a table of initial user stories for the project:
 
 #### Database Design
 Here is the ER diagram for my database:
-![](./screenshots/Pasted%20image%2020250115160555.png)
+![](../screenshots/Pasted%20image%2020250115160555.png)
 
 #### UI Sitemap
 Here is a diagram of how the user will navigate the website:
-![](./screenshots/Pasted%20image%2020250117125708.png)
+![](../screenshots/Pasted%20image%2020250117125708.png)
 
 #### UI Wireframes
 There are the low fidelity wireframes for all the pages in the application.
 ##### Home Page
 
-![](./screenshots/Pasted%20image%2020250117114409.png)
+![](../screenshots/Pasted%20image%2020250117114409.png)
 
 ##### Login Page
-![](./screenshots/Pasted%20image%2020250117114643.png)
+![](../screenshots/Pasted%20image%2020250117114643.png)
 ##### Register Page
-![](./screenshots/Pasted%20image%2020250117114733.png)
+![](../screenshots/Pasted%20image%2020250117114733.png)
 ##### Portfolio Page
-![](./screenshots/Pasted%20image%2020250117114746.png)
+![](../screenshots/Pasted%20image%2020250117114746.png)
 ##### Create Estate Page
-![](./screenshots/Pasted%20image%2020250117114817.png)
+![](../screenshots/Pasted%20image%2020250117114817.png)
 ##### Update Estate Page
-![](./screenshots/Pasted%20image%2020250117114843.png)
+![](../screenshots/Pasted%20image%2020250117114843.png)
 ##### Account Page
-![](./screenshots/Pasted%20image%2020250117114858.png)
+![](../screenshots/Pasted%20image%2020250117114858.png)
 
 #### UML Diagrams
-![](./screenshots/Pasted%20image%2020250117113958.png)
+![](../screenshots/Pasted%20image%2020250117113958.png)
 
 #### Risks
 This is a list of the risks and unknowns that could come up during this project:
