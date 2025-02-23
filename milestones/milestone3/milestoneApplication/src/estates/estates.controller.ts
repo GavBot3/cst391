@@ -3,20 +3,16 @@ import { Estate } from "./estates.model";
 import * as EstateDao from "./estates.dao";
 import { OkPacket } from "mysql";
 
-// READ ALL ESTATES / READ ESTATES BY ID / READ ESTATES BY OWNER ID
+// READ ALL ESTATES / READ ESTATES BY ID 
 export const readEstates: RequestHandler = async (req: Request, res: Response) => {
   try {
     let estates;
     let estateId = parseInt(req.query.estateId as string);
-    let ownerId = parseInt(req.query.ownerId as string);
 
     console.log("estateId: ", estateId);
-    console.log("ownerId: ", ownerId);
 
     if (!Number.isNaN(estateId)) {
       estates = await EstateDao.readEstateById(estateId);
-    } else if (!Number.isNaN(ownerId)) {
-      estates = await EstateDao.readEstatesByOwner(ownerId);
     } else {
       estates = await EstateDao.readEstates();
     }
@@ -24,6 +20,29 @@ export const readEstates: RequestHandler = async (req: Request, res: Response) =
     res.status(200).json(estates);
   } catch (error) {
     console.error("[estates.controller][readEstates][Error] ", error);
+    res.status(500).json({
+      message: "There was an error when fetching estates",
+    });
+  }
+};
+
+// READ ESTATES BY OWNER ID
+export const readEstatesByOwner: RequestHandler = async (req: Request, res: Response) => {
+  try {
+    let estates;
+    let ownerId = parseInt(req.params.ownerId as string);
+
+    console.log("ownerId: ", ownerId);
+
+    if (!Number.isNaN(ownerId)) {
+      estates = await EstateDao.readEstatesByOwner(ownerId);
+    } else {
+      estates = await EstateDao.readEstates();
+    }
+
+    res.status(200).json(estates);
+  } catch (error) {
+    console.error("[estates.controller][readEstatesByOwner][Error] ", error);
     res.status(500).json({
       message: "There was an error when fetching estates",
     });

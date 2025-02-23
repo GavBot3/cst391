@@ -13,10 +13,12 @@ export const readUsers: RequestHandler = async (
   try {
     let users;
     let userId = parseInt(req.query.userId as string);
-    let userEmail = req.query.userId as string;
+    let userEmail = req.query.email as string;
     console.log("userId: ", userId);
 
-    if (Number.isNaN(userId)) {
+    if (userEmail != null) {
+      users = await UserDao.readUserByEmail(userEmail);
+    } else if (Number.isNaN(userId)) {
       users = await UserDao.readUsers();
     } else {
       users = await UserDao.readUserById(userId);
