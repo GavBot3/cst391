@@ -1,0 +1,204 @@
+[
+  {
+      "id": 1,
+      "title": "Revolver",
+      "artist": "The Beatles",
+      "description": "My 2nd favorite Beatles Album",
+      "year": 1966,
+      "image": "7.png",
+      "tracks": [
+          {
+              "id": 1,
+              "number": 1,
+              "title": "Taxman",
+              "lyrics": "lyrics",
+              "video": "youtube.com"
+          },
+          {
+              "id": 2,
+              "number": 2,
+              "title": "Eleanor Rigby",
+              "lyrics": "lyrics",
+              "video": "youtube.com"
+          },
+          {
+              "id": 3,
+              "number": 3,
+              "title": "I'm Only Sleeping",
+              "lyrics": "lyrics",
+              "video": "youtube.com"
+          },
+          {
+              "id": 4,
+              "number": 4,
+              "title": "Love You To",
+              "lyrics": "lyrics",
+              "video": "youtube.com"
+          },
+          {
+              "id": 5,
+              "number": 5,
+              "title": "Here, There and Everywhere",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 6,
+              "number": 6,
+              "title": "Yellow Submarine",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 7,
+              "number": 7,
+              "title": "She Said She Said",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 8,
+              "number": 8,
+              "title": "Good Day Sunshine",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 9,
+              "number": 9,
+              "title": "And Your Bird Can Sing",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 10,
+              "number": 10,
+              "title": "For No One",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 11,
+              "number": 11,
+              "title": "Doctor Robert",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 12,
+              "number": 12,
+              "title": "I Want to Tell You",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 13,
+              "number": 13,
+              "title": "Got to Get You into My Life",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 14,
+              "number": 14,
+              "title": "Tomorrow Never Knows",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          }
+      ]
+  },
+  {
+      "id": 3,
+      "title": "Rubber Soul",
+      "artist": "The Beatles",
+      "description": "My 2nd favorite Beatles Album",
+      "year": 1965,
+      "image": "6.png",
+      "tracks": [
+          {
+              "id": 27,
+              "number": 1,
+              "title": "I've Just Seen a Face",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 28,
+              "number": 2,
+              "title": "Norwegian Wood (This Bird Has Flown)",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 29,
+              "number": 3,
+              "title": "You Won't See Me",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 30,
+              "number": 4,
+              "title": "Think for Yourself",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 31,
+              "number": 5,
+              "title": "The Word",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 32,
+              "number": 6,
+              "title": "Michelle",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 33,
+              "number": 7,
+              "title": "It's Only Love",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 34,
+              "number": 8,
+              "title": "Girl",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 35,
+              "number": 9,
+              "title": "I'm Looking Through You",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 36,
+              "number": 10,
+              "title": "In My Life",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 37,
+              "number": 11,
+              "title": "Wait",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          },
+          {
+              "id": 38,
+              "number": 12,
+              "title": "Run for Your Life",
+              "lyrics": "placeholder",
+              "video": "placeholder"
+          }
+      ]
+  }
+]

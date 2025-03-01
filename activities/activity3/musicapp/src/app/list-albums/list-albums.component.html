@@ -1,0 +1,11 @@
+<div class="list-group" *ngIf="selectedAlbum == null">
+  <button class="list-group-item active"
+          *ngFor="let album of albums"
+          (click)="onSelectAlbum(album)">
+    {{ album.title }}
+  </button>
+</div>
+<!--
+<div *ngIf="selectedAlbum">
+  <app-list-artists [album]="selectedAlbum"></app-list-artists>
+</div> -->

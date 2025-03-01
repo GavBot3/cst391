@@ -43,9 +43,7 @@ Here is a diagram of how the user will navigate the website:
 #### UI Wireframes
 There are the low fidelity wireframes for all the pages in the application.
 ##### Home Page
-
 ![](../screenshots/Pasted%20image%2020250117114409.png)
-
 ##### Login Page
 ![](../screenshots/Pasted%20image%2020250117114643.png)
 ##### Register Page
@@ -58,7 +56,6 @@ There are the low fidelity wireframes for all the pages in the application.
 ![](../screenshots/Pasted%20image%2020250117114843.png)
 ##### Account Page
 ![](../screenshots/Pasted%20image%2020250117114858.png)
-
 #### UML Diagrams
 ![](../screenshots/Pasted%20image%2020250117113958.png)
 
