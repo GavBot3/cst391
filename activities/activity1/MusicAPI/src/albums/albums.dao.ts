@@ -40,7 +40,7 @@ export const updateAlbum = async (album: Album) => {
     album.year,
     album.image,
     album.description,
-    album.albumId
+    album.id
   ]);
 };
 

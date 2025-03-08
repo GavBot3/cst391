@@ -1,7 +1,7 @@
 import { Track } from "../tracks/tracks.model";
 
 export interface Album {
-  albumId: number,
+  id: number,
   title: string,
   artist: string,
   description: string,

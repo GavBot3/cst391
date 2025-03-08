@@ -14,13 +14,13 @@ const app = express();
 //create a variable for the port number
 const port = 3000;
 
+app.use(cors());
 app.use(express.json());
 
 app.use(express.urlencoded({ extended: true }));
 
-app.use("/", [albumsRouter, artistsRouter]);
-app.use(cors());
 app.use(helmet());
+app.use("/", [albumsRouter, artistsRouter]);
 
 
 if (process.env.NODE_ENV == "development") {

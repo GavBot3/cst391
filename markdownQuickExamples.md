@@ -90,7 +90,7 @@ public class CodeBlock {
 }
 ```
 
-```
+```java
 public class CodeBlock {
     public static void main(String[] args) {
         System.out.println("Code Block Example");

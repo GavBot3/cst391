@@ -124,7 +124,7 @@ export const updateAlbum: RequestHandler = async (
 
     req.body.tracks.forEach(async (track: Track, index: number) => {
       try {
-        await TracksDao.createTrack(track, index, req.body.albumId);
+        await TracksDao.createTrack(track, index, req.body.id);
       } catch (error) {
         console.error("[albums.controller][createAlbumTracks][Error] ", error);
         res.status(500).json({
@@ -148,7 +148,7 @@ async function readTracks(
 ) {
   for (let i = 0; i < albums.length; i++) {
     try {
-      const tracks = await TracksDao.readTracks(albums[i].albumId);
+      const tracks = await TracksDao.readTracks(albums[i].id);
       albums[i].tracks = tracks;
     } catch (error) {
       console.error("[albums.controller][readTracks][Error] ", error);
@@ -165,7 +165,7 @@ export const deleteAlbum: RequestHandler = async (
   res: Response
 ) => {
   try {
-    let albumId = parseInt(req.params.albumId as string);
+    let albumId = parseInt(req.params.id as string);
 
     if(!Number.isNaN(albumId)) {
       const response = await AlbumDao.deleteAlbum(albumId)
