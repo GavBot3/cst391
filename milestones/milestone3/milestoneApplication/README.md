@@ -5,7 +5,13 @@
 ### Author: Gavin Kuehn
 ### Date: February 21, 2025
 ---
-#### UPDATES
+
+#### UPDATES (Milestone 4)
+For this milestone there have been no major updates other than some UI changes, I wasn't able to update wireframes.  
+
+A current issue is that when editing a estate in the angular application is automatically sets the owner id to 1 and not to the original owner.
+
+#### UPDATES (Milestone 3)
 
 I've updated the REST API endpoints to accurately represent want is in the application. Please take a look at the API Documentation file for the documentation on the API that was built for this milestone.
 
