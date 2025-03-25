@@ -11,6 +11,8 @@ For this milestone there have been no major updates other than some UI changes, 
 
 A current issue is that when editing a estate in the angular application is automatically sets the owner id to 1 and not to the original owner.
 
+Link to video: [Demo of Application](https://youtu.be/a8EnKKYXsX8)
+
 #### UPDATES (Milestone 3)
 
 I've updated the REST API endpoints to accurately represent want is in the application. Please take a look at the API Documentation file for the documentation on the API that was built for this milestone.
