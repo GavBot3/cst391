@@ -54,27 +54,27 @@ Here is the ER diagram for my database:
 
 #### UI Sitemap
 Here is a diagram of how the user will navigate the website:
-![[Pasted image 20250117125708.png]]
+![](../screenshots/Pasted%20image%2020250117125708.png)
 
 #### UI Wireframes
 There are the low fidelity wireframes for all the pages in the application.
 
 ##### Home Page
-![](../../screenshots/Pasted%20image%2020250117114409.png)
+![](../screenshots/Pasted%20image%2020250117114409.png)
 ##### Login Page
 ![](../../screenshots/Pasted%20image%2020250117114643.png)
 ##### Register Page
-![](../../screenshots/Pasted%20image%2020250117114733.png)
+![](../screenshots/Pasted%20image%2020250117114733.png)
 ##### Portfolio Page
-![](../../screenshots/Pasted%20image%2020250117114746.png)
+![](../screenshots/Pasted%20image%2020250117114746.png)
 ##### Create Estate Page
-![](../../screenshots/Pasted%20image%2020250117114817.png)
+![](../screenshots/Pasted%20image%2020250117114817.png)
 ##### Update Estate Page
-![](../../screenshots/Pasted%20image%2020250117114843.png)
+![](../screenshots/Pasted%20image%2020250117114843.png)
 ##### Account Page
-![](../../screenshots/Pasted%20image%2020250117114858.png)
+![](../screenshots/Pasted%20image%2020250117114858.png)
 #### UML Diagrams
-![](../../screenshots/Pasted%20image%2020250117113958.png)
+![](../screenshots/Pasted%20image%2020250117113958.png)
 
 
 #### Risks
